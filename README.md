@@ -18,7 +18,7 @@
 
 ## 📋 Overview
 
-AI DeWatermarker is a free, open-source tool that detects and removes hidden AI watermarks and text obfuscation from text content. All processing happens **locally in your browser** - ensuring complete privacy and security. Just visit to use: https://ai-de-watermarker.vercel.app/. [1](#0-0) 
+AI DeWatermarker is a free, open-source tool that detects and removes hidden AI watermarks and text obfuscation from text content. All processing happens **locally in your browser** - ensuring complete privacy and security. Just visit to use: https://ai-de-watermarker.vercel.app/.  
 <img width="1920" height="922" alt="chrome_tKFFaSJzir" src="https://github.com/user-attachments/assets/f8959eb5-7fbd-489c-a132-9f34f2c94399" />
 <img width="1920" height="922" alt="chrome_gybc802wRX" src="https://github.com/user-attachments/assets/e18e6005-0a3b-4f7f-83a9-141b4d6d9cb4" />
 
@@ -33,7 +33,7 @@ AI DeWatermarker is a free, open-source tool that detects and removes hidden AI 
 - **Suspicious Punctuation**: Identifies non-standard quotes, dashes, and ellipsis
 - **Special Spaces**: Finds non-breaking spaces, em spaces, and other unusual whitespace
 - **Mixed Scripts**: Detects mixing of different writing systems
-- **Control Characters**: Identifies C0/C1 control codes and tag characters [2](#0-1) 
+- **Control Characters**: Identifies C0/C1 control codes and tag characters 
 
 ### 🎯 Advanced Analysis
 
@@ -41,7 +41,7 @@ AI DeWatermarker is a free, open-source tool that detects and removes hidden AI 
 - **Real-time Highlighting**: Visual indicators show exactly where issues are detected
 - **Line Density Analysis**: Identifies heavily obfuscated sections
 - **Pattern Detection**: Finds repeating invisible character sequences and unmatched bidi pairs
-- **Encoded Data Detection**: Identifies potential Base64 or hex-encoded watermarks [3](#0-2) 
+- **Encoded Data Detection**: Identifies potential Base64 or hex-encoded watermarks 
 
 ### 🧹 Intelligent Cleaning
 
@@ -49,14 +49,14 @@ AI DeWatermarker is a free, open-source tool that detects and removes hidden AI 
 - **Homoglyph Replacement**: Replaces look-alike characters with standard equivalents
 - **Whitespace Normalization**: Collapses multiple spaces and standardizes line endings
 - **Control Character Removal**: Strips out harmful control codes
-- **Punctuation Standardization**: Converts fancy quotes and dashes to ASCII equivalents [4](#0-3) 
+- **Punctuation Standardization**: Converts fancy quotes and dashes to ASCII equivalents
 
 ### 🔒 Privacy-First
 
 - **100% Client-Side**: All processing happens in your browser
 - **No Data Collection**: Your text never leaves your device
 - **No Server Calls**: Works completely offline after initial load
-- **Open Source**: Fully transparent and auditable code [5](#0-4) 
+- **Open Source**: Fully transparent and auditable code
 
 ## 🚀 How It Works
 
@@ -64,7 +64,7 @@ AI DeWatermarker is a free, open-source tool that detects and removes hidden AI 
 2. **Real-time analysis** detects all types of watermarks and obfuscation
 3. **Visual highlights** show exactly where issues are found
 4. **Detailed report** breaks down each type of detection
-5. **Clean output** provides sanitized text ready to copy [6](#0-5) 
+5. **Clean output** provides sanitized text ready to copy
 
 ## 💻 Installation
 
@@ -111,7 +111,7 @@ npm run build
   - 🔴 Red: Invisible characters and bidi marks
   - 🟡 Amber: Homoglyphs
   - 🔵 Blue: Suspicious punctuation
-  - 🟣 Purple: Special spaces [8](#0-7) 
+  - 🟣 Purple: Special spaces 
 
 ## 🛠️ Tech Stack
 
@@ -123,7 +123,7 @@ npm run build
 - **Routing**: React Router DOM
 - **Form Handling**: React Hook Form with Zod validation
 - **Icons**: Lucide React
-- **Notifications**: Sonner [9](#0-8) 
+- **Notifications**: Sonner
 
 ## 📁 Project Structure
 
@@ -148,7 +148,7 @@ Invisible tracking characters embedded between words or letters to create unique
 Using Cyrillic 'а' (U+0430) instead of Latin 'a' (U+0061) to create visually identical but technically different text.
 
 ### Bidirectional Marks
-RTL/LTR override characters that can hide or obfuscate text content. [10](#0-9) 
+RTL/LTR override characters that can hide or obfuscate text content. 
 
 ## 🤝 Contributing
 
@@ -169,7 +169,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 📜 License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details. [11](#0-10) 
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details. 
 
 ## 🌟 Why AI DeWatermarker?
 
