@@ -18,7 +18,9 @@
 
 ## 📋 Overview
 
-AI DeWatermarker is a free, open-source tool that detects and removes hidden AI watermarks and text obfuscation from text content. All processing happens **locally in your browser** - ensuring complete privacy and security. [1](#0-0) 
+AI DeWatermarker is a free, open-source tool that detects and removes hidden AI watermarks and text obfuscation from text content. All processing happens **locally in your browser** - ensuring complete privacy and security. Just visit to use: https://ai-de-watermarker.vercel.app/. [1](#0-0) 
+<img width="1920" height="922" alt="chrome_tKFFaSJzir" src="https://github.com/user-attachments/assets/f8959eb5-7fbd-489c-a132-9f34f2c94399" />
+<img width="1920" height="922" alt="chrome_gybc802wRX" src="https://github.com/user-attachments/assets/e18e6005-0a3b-4f7f-83a9-141b4d6d9cb4" />
 
 ## ✨ Features
 
