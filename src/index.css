@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 25% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 20% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 20% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 195 100% 55%;
+    --primary-foreground: 220 25% 6%;
+
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 15% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 30 100% 60%;
+    --accent-foreground: 220 25% 6%;
+
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 18%;
+    --input: 220 15% 18%;
+    --ring: 195 100% 55%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 220 25% 6%;
+
+    --success: 142 71% 45%;
+    --success-foreground: 220 25% 6%;
+
+    --radius: 0.75rem;
+
+    --gradient-primary: linear-gradient(135deg, hsl(195 100% 55%), hsl(210 100% 60%));
+    --gradient-card: linear-gradient(135deg, hsl(220 20% 10%), hsl(220 20% 12%));
+    --shadow-glow: 0 0 40px hsl(195 100% 55% / 0.3);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @keyframes gradient {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .animate-gradient {
+    animation: gradient 3s ease infinite;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  textarea {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--primary) / 0.3) transparent;
+  }
+
+  textarea::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  textarea::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  textarea::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary) / 0.3);
+    border-radius: 4px;
+  }
+
+  textarea::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary) / 0.5);
+  }
+}
