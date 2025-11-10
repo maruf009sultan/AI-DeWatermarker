@@ -87,7 +87,7 @@ npm run dev
 
 # Build for production
 npm run build
-``` [7](#0-6) 
+```
 
 ## 🎮 Usage
 
